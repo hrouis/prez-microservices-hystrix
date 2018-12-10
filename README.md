@@ -1,2 +1,2 @@
-# prez-rx-java2
-https://gitpitch.com/hrouis/prez-rx-java2
+# prez-microservices-hystrix
+https://gitpitch.com/hrouis/prez-microservices-hystrix
