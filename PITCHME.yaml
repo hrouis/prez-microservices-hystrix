@@ -1,0 +1,19 @@
+theme : beige
+
+layout : center
+
+logo : assets/images/logo.png
+
+theme-override : assets/css/PITCHME.css
+
+transition : convex
+
+highlight : ir-black
+
+code-line-numbers : true
+
+charts : true
+
+mathjax : TeX-AMS_HTML-full
+
+published : true
