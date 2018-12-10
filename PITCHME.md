@@ -20,6 +20,7 @@ L’architecture en microservices est une approche servant à concevoir une appl
 
 +++
 ![decoupage_ms](assets/images/microservices_architecture.png)   
+
 @size[0.5em](Le découpage se fait par domaine métier, en groupant les services et les types de données qui ont des liens forts, et en séparant quand ils sont suffisamment indépendants.)  
 
 +++
