@@ -1,12 +1,22 @@
 @title[Introduction]
 ## @color[#cc6699](Microservices / Hystrix)
 ---
+### Les Microservices : Définitions
 L’architecture en microservices est une approche servant à concevoir une application unique basé sur un ensemble de petits services* indépendants. Chaque microservice s’exécute dans un processus qui
  lui est propre et communique via un protocole léger, le plus souvent à base de ressource HTTP  (tel que REST –REpresentational State Transfer- par exemple).
  
  
  * service: une unité fonctionnelle représentée par plusieurs services techniques. 
 
++++
+### Les Microservices : Pourquoi?
+- Complexité du code : 
+  * Évolutivité et fiabilité
+  * Scalabilité horizontale
+
+- Innovation :
+  * Technologique
+  * Métier
 ---
 RxJava offre une manière élégante pour implémenter du code asynchrone.
 * Callback : Complexité dans l'enchainement de callBack (Callback Hell)
