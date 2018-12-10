@@ -25,7 +25,7 @@ L’architecture en microservices est une approche servant à concevoir une appl
 
 +++
 ### Les Microservices : Problèmes?
-“Illusions de l’informatique distribuée” :
+Illusions de l’informatique distribuée :
     - Le réseau est fiable.
     - Le temps de latence est nul.
     - La bande passante est infinie.
