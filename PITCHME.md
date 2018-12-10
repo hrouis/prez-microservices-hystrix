@@ -1,7 +1,7 @@
 @title[Introduction]
 ## @color[#cc6699](Microservices / Hystrix)
 ---
-### Les Microservices : Définitions
+### Les Microservices : Définition
 L’architecture en microservices est une approche servant à concevoir une application unique basé sur un ensemble de petits services* indépendants. Chaque microservice s’exécute dans un processus qui
  lui est propre et communique via un protocole léger, le plus souvent à base de ressource HTTP  (tel que REST –REpresentational State Transfer- par exemple).
  
@@ -17,25 +17,10 @@ L’architecture en microservices est une approche servant à concevoir une appl
 - Innovation :
   * Technologique
   * Métier
----
-RxJava offre une manière élégante pour implémenter du code asynchrone.
-* Callback : Complexité dans l'enchainement de callBack (Callback Hell)
 
-```java
-service.getData(dataA -> {
-    service.getData(dataB -> {
-        service.getData(dataC -> {
-            // ...
-        });
-    });        
-});
-```
- * Future : Peuvent bloquer le code trop tôt ( appel à la méthode get) 
 +++
-
-@size[0.5em](RxJava est basé sur le patron de conception Observateur : L'objet observé envoie un signal à des composants qui jouent le rôle d'observateurs. En cas de notification, les observateurs effectuent alors l'action adéquate en fonction des informations qui parviennent depuis les modules qu'ils observent.)  
- 
-![observer_pattern](assets/images/observer.png)   
+![decoupage_ms](assets/images/microservices_architecture.png)   
+@size[0.5em](Le découpage se fait par domaine métier, en groupant les services et les types de données qui ont des liens forts, et en séparant quand ils sont suffisamment indépendants.)  
 
 +++
 Un Observable peux être compris comme un Runnable, il va contenir une méthode qui va être executé dans un Thread différent.
