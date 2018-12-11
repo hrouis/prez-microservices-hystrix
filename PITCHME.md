@@ -6,7 +6,7 @@ L’architecture en microservices est une approche servant à concevoir une appl
  lui est propre et communique via un protocole léger, le plus souvent à base de ressource HTTP  (tel que REST –REpresentational State Transfer- par exemple).
  
  
- * service: une unité fonctionnelle représentée par plusieurs services techniques. 
+@size[0.5em]( * service: une unité fonctionnelle représentée par plusieurs services techniques. )
 
 +++
 ### Les Microservices : Pourquoi?
@@ -42,6 +42,7 @@ La réalité:
    - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant des erreurs en cascade sur tous les systèmes
 +++
 Exemple Netflix: 
+Un système composé de 30 services environs: 
 
   - @size[0.7em](99.99^30 = 99.7% disponibilité)
   - @size[0.7em](0.3% d'un  milliard de requêtes = 3,000,000 requêtes en erreur.)
