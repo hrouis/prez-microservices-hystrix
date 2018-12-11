@@ -66,14 +66,24 @@ Un système composé de 30 services environs:
 +++
 ### Hystrix : Implémentation 
 ```java
-
+    @HystrixCommand(fallbackMethod = "fallBackHello",
+            commandKey = "hello", groupKey = "hello")
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello World";
+        }
+    public String fallBackHello() {
+            return "Fall Back Hello initiated";
+    }
 ```
+@[1-2](Annotation pour la création d'un objet HystrixCommand)
+@[7-8](Méthode FallBack)
 +++
 ### Reactive Streams
 @size[0.4em](Une initiative qui essaye de normaliser le traitement asynchrone des flux avec une contre-pression non bloquante.)  
 @size[0.4em](RxJava2 implémente cette spécification.)
 
-![ractive](assets/images/reactive-streams-communication-flow.png)
+![ractive](assets/images/hystrix-command-flow-chart.png)
 +++
 ### Contre Pression (Back-pressure)
 ![back-pressure](assets/images/backpressure.jpg)
