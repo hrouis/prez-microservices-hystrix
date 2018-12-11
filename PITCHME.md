@@ -10,11 +10,11 @@
 
 +++
 ### Les Microservices : Pourquoi?
-* Complexité du code : 
+* @size[0.7em](Complexité du code :) 
   * @size[0.5em](Évolutivité et fiabilité : Difficile d’ajouter proprement des nouvelles fonctionnalités et d’effectuer des refactorings.)
   * @size[0.5em](Scalabilité horizontale : Pas de séparation entre service stateless / stateful. On doit gérer le  sharding / steaky session.)
 
-* Innovation :
+* @size[0.7em](Innovation :)
   * @size[0.5em](Technologique : Difficile d’introduire de nouveaux outils/ langages pour des besoins spécifiques.)
   * @size[0.5em](Métier : Pas de séparation entre les composants critiques et ceux moins critiques qui peuvent être sujet d'innovation métier.) 
 
