@@ -36,16 +36,20 @@ Illusions de l’informatique distribuée :
     - Le réseau est homogène.
 
 +++
-99.9930 = 99.7% uptime
-0.3% of 1 billion requests = 3,000,000 failures
-2+ heures downtime/month even if all dependencies have excellent uptime
----
-### Le Manifeste Réactif  
-https://www.reactivemanifesto.org/fr
+La réalité: 
+   - Lorsque les ressources sont conservées plus longtemps que nécessaire, elles peuvent être épuisées et les systèmes peuvent cesser de répondre. Les ressources incluent les threads, les connexions réseau, la mémoire, etc.
+   - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les systèmes  peuvent ralentir et devenir inactifs
+   - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant 
+    des erreurs en cascade sur tous les systèmes
++++
+Exemple Netflix: 
 
-- Disponible : Le système répond rapidement en toutes circonstances.
-- Résilient : Le système reste disponible en cas d'erreur.
-- Souple : Le système reste disponible indépendemment de la charge de travail
+  - 99.99^30 = 99.7% uptime
+  - 0.3% d'un  milliard de requêtes = 3,000,000 requêtes en erreur.
+  - 2+ heures temps d'arrêt / mois même si toutes les dépendances possèdent un excellente disponibilité  even if all dependencies have excellent uptime
+---
+### Hystrix 
+
 
 +++
 
