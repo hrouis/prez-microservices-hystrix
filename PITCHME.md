@@ -86,7 +86,7 @@ Un système composé de 30 services environs:
 - @size[0.7em](Diagramme de séquence : https://design.codelytics.io/hystrix/how-it-works)
 +++
 ### Hystrix Circuit Breaker:
-
+![circuit_breaker](assets/images/circuit-breaker.png)
 ---
 ### Types d'Observables
 
