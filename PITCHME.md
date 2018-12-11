@@ -60,8 +60,8 @@ Un système composé de 30 services environs:
 - Requests Caching
 - Circuit Breakers
 +++
-@size[0.7em](### Design Pattern : Circuit Breaker)
----?image=assets/images/dp_circuitbreaker.png&size=contain
+### Design Pattern : Circuit Breaker
+![circuit](assets/images/dp_circuitbreaker.png&size=contain)
 
 +++
 ### Hystrix : Implémentation 
