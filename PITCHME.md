@@ -80,8 +80,7 @@ Un système composé de 30 services environs:
 @[7-8](Méthode FallBack)
 +++
 ### Reactive Streams
-@size[0.4em](Une initiative qui essaye de normaliser le traitement asynchrone des flux avec une contre-pression non bloquante.)  
-@size[0.4em](RxJava2 implémente cette spécification.)
+@size[0.4em](Diagramme représentatif d'un appel à un service via une commande Hystrix.)  
 
 ![ractive](assets/images/hystrix-command-flow-chart.png)
 +++
