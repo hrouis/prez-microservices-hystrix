@@ -61,7 +61,7 @@ Un système composé de 30 services environs:
 - Circuit Breakers
 +++
 ### Design Pattern : Circuit Breaker
-![circuit](assets/images/dp_circuitbreaker.png)
+
 @size[0.5em](Désactiver l’envoi de requêtes au service appelé et de renvoyer plus rapidement une réponse alternative de repli (fallback), aussi appelé graceful degradation, En fonction d’un certain nombre de critères d’erreur (timeout, nombre d’erreurs, élément dans la réponse),)
 +++
 ### Hystrix : Implémentation 
