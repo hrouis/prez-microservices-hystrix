@@ -53,12 +53,12 @@ Un système composé de 30 services environs:
 
 ---
 ### Hystrix: Solutions
-- Timeout
-- Thread Pools / Semaphores
-- Fallback
-- Requests Collapsing
-- Requests Caching
-- Circuit Breakers
+- @size[0.7em](Timeout : Libérer les ressources du systèmes et prévenir les blocages d'appels.)
+- @size[0.7em](Thread Pools / Semaphores : Limiter l'utilisatsion des ressources,  Limiter le nombre d'appels concurrents à un composant : Bulkhead pattern)
+- @size[0.7em](Fallback: Implémenter une réponse alternative envoyée en cas d'indisponibilité de la ressource : Fail Fast pattern)
+- @size[0.7em](Requests Collapsing:  exécuter plusieurs requêtes en batch , avec une seule connexion réseau)
+- @size[0.7em](Requests Caching)
+-  @size[0.7em](Circuit Breakers)
 +++
 ![circuit](assets/images/dp_circuitbreaker.png)
 @size[0.3em](Désactiver l’envoi de requêtes au service appelé et de renvoyer plus rapidement une réponse alternative de repli "fallback" aussi appelé graceful degradation,)
@@ -88,7 +88,8 @@ Un système composé de 30 services environs:
 ### Hystrix Circuit Breaker:
 ![circuit_breaker](assets/images/circuit-breaker.png)
 ---
-### Types d'Observables
+### Hystrix Dashboard
+
 
 | Type                        | Cas d'usage                                                    |
 |-----------------------------|----------------------------------------------------------------|
