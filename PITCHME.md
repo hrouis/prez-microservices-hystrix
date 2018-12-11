@@ -96,4 +96,4 @@ Un système composé de 30 services environs:
 ### What's Next
 * @size[0.7em](Hystrix : projet en mode maintenance, mais a été intégré dans  Spring Cloud  : Spring Cloud Netflix Hystrix depuis Mars 2015.)
 * @size[0.7em](concurrency-limits : détection automatique de la limite de concurrence à travers les pour réaliser une latence optimale) 
-  * @size[0.5em](Algorithme TCP implémenté : Vegas + Algorithme d' Optimisation :  Gradient)
+  @size[0.5em](* Algorithme TCP implémenté : Vegas + Algorithme d' Optimisation :  Gradient)
