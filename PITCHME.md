@@ -39,8 +39,7 @@ Illusions de l’informatique distribuée :
 La réalité: 
    - Lorsque les ressources sont conservées plus longtemps que nécessaire, elles peuvent être épuisées et les systèmes peuvent cesser de répondre. Les ressources incluent les threads, les connexions réseau, la mémoire, etc.
    - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les systèmes  peuvent ralentir et devenir inactifs
-   - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant 
-    des erreurs en cascade sur tous les systèmes
+   - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant des erreurs en cascade sur tous les systèmes
 +++
 Exemple Netflix: 
 
@@ -48,13 +47,21 @@ Exemple Netflix:
   - 0.3% d'un  milliard de requêtes = 3,000,000 requêtes en erreur.
   - 2+ heures temps d'arrêt / mois même si toutes les dépendances possèdent un excellente disponibilité  even if all dependencies have excellent uptime
 ---
-### Hystrix 
-
-
+### Hystrix: Solutions
+- Timeout
+- Thread Pools / Semaphores
+- Fallback
+- Requests Collapsing
+- Requests Caching
+- Circuit Breakers
 +++
+### Design Pattern : Circuit Breaker
+![circuit](assets/images/dp_circuitbreaker.png)
++++
+### Hystrix : Implémentation 
+```java
 
-- Orientés messages (message-driven) : Le système utilise le passage de message asynchrones
-entre ses composants afin de profiter de l'élasticité et  de la répartition des charges en appliquant la contre-pression ( back-pressure )
+```
 +++
 ### Reactive Streams
 @size[0.4em](Une initiative qui essaye de normaliser le traitement asynchrone des flux avec une contre-pression non bloquante.)  
