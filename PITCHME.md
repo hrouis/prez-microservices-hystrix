@@ -61,7 +61,7 @@ Un système composé de 30 services environs:
 - Circuit Breakers
 +++
 ### Design Pattern : Circuit Breaker
-![circuit](assets/images/dp_circuitbreaker.png&size=contain)
+![circuit](assets/images/dp_circuitbreaker.png)
 
 +++
 ### Hystrix : Implémentation 
