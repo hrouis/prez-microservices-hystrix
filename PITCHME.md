@@ -89,17 +89,7 @@ Un système composé de 30 services environs:
 ![circuit_breaker](assets/images/circuit-breaker.png)
 ---
 ### Hystrix Dashboard
-
-
-| Type                        | Cas d'usage                                                    |
-|-----------------------------|----------------------------------------------------------------|
-| @size[0.6em](*Single*)      | @size[0.6em](Opération asynchrone qui retourne 1 résultat)     |
-| @size[0.6em](*Maybe*)       | @size[0.6em](Opération asynchrone qui retourne 0 ou 1 résultat) |
-| @size[0.6em](*Completable*) | @size[0.6em](Opération asynchrone qui ne retourne aucun résultat. Indique la fin d'observation.) | 
-| @size[0.6em](*Observable*)  | @size[0.6em](Séquence de données sans contre-pression) |
-| @size[0.6em](*Flowable*)    | @size[0.6em](Séquence de données avec contre-pression) |
-
-   
+![circuit_breaker](assets/images/hystrix_dashboard.png)
 ---
 ### Parallélisme dans RxJava 2.0
 #### Schedulers
