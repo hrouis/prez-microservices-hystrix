@@ -41,7 +41,7 @@ La réalité:
    - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les systèmes  peuvent ralentir et devenir inactifs
    - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant des erreurs en cascade sur tous les systèmes
 +++
-Exemple Netflix: 
+### Exemple Netflix: 
 Un système composé de 30 services environs: 
 
   - @size[0.7em](99.99^30 = 99.7% disponibilité)
