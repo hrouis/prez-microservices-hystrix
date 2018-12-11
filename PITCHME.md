@@ -3,7 +3,7 @@
 ---
 ### Les Microservices : Définition
 @size[0.7em](L’architecture en microservices est une approche servant à concevoir une application unique basé sur un ensemble de petits services* indépendants. Chaque microservice s’exécute dans un processus qui)
-@size[0.7em]( lui est propre et communique via un protocole léger, le plus souvent à base de ressource HTTP  tel que REST –@size[0.5em](REpresentational State Transfer)- par exemple)
+@size[0.7em]( lui est propre et communique via un protocole léger, le plus souvent à base de ressource HTTP  tel que REST par exemple)
  
  
 @size[0.5em]( * service: une unité fonctionnelle représentée par plusieurs services techniques. )
@@ -42,7 +42,7 @@ La réalité:
    -  @size[0.7em](Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les systèmes  peuvent ralentir et devenir inactifs)
    -  @size[0.7em](Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant des erreurs en cascade sur tous les systèmes)
 +++
-### Exemple Netflix: 
+### Exemple: 
 Un système composé de 30 services environs: 
 
   - @size[0.7em](99.99^30 = 99.7% disponibilité)
@@ -92,7 +92,6 @@ Un système composé de 30 services environs:
 ![circuit_breaker](assets/images/hystrix_dashboard.png)
 ---
 ### What's Next
-
 - @size[0.7em](Hystrix : projet en mode maintenance, mais a été intégré dans  Spring Cloud  : Spring Cloud Netflix Hystrix depuis Mars 2015.)
 - @size[0.7em](concurrency-limits : détection automatique dela limite de concurrence à travers les pour réaliser une latence optimale) 
-      - @size[0.5em](Algorithme TCP implémenté : Vegas + Algorithme d' Optimisation :  Gradient)
+- @size[0.5em](Algorithme TCP implémenté : Vegas + Algorithme d' Optimisation :  Gradient)
