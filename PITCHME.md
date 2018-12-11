@@ -38,9 +38,9 @@ Illusions de l’informatique distribuée :
 
 +++
 La réalité: 
-   - Lorsque les ressources sont conservées plus longtemps que nécessaire, elles peuvent être épuisées et les systèmes peuvent cesser de répondre. Les ressources incluent les threads, les connexions réseau, la mémoire, etc.
-   - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les systèmes  peuvent ralentir et devenir inactifs
-   - Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant des erreurs en cascade sur tous les systèmes
+   -  @size[0.7em](Lorsque les ressources sont conservées plus longtemps que nécessaire, elles peuvent être épuisées et les systèmes peuvent cesser de répondre. Les ressources incluent les threads, les connexions réseau, la mémoire, etc.)
+   -  @size[0.7em](Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les systèmes  peuvent ralentir et devenir inactifs)
+   -  @size[0.7em](Lorsque l'utilisation des ressources n'est pas contrôlée / limitée, les erreurs des systèmes peuvent se propager, provoquant des erreurs en cascade sur tous les systèmes)
 +++
 ### Exemple Netflix: 
 Un système composé de 30 services environs: 
