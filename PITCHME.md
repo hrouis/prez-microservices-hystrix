@@ -48,7 +48,8 @@ Un système composé de 30 services environs:
   - @size[0.7em](0.3% d'un  milliard de requêtes = 3,000,000 requêtes en erreur.)
   - @size[0.7em](2+ heures temps d'arrêt / mois même si toutes les dépendances possèdent une excellente disponibilité).
   
-@size[0.5em] (* Tout celà reste théorique en réalité la situation est plus grave)
+@size[0.5em](* Tout celà reste théorique en réalité la situation est plus grave)
+
 ---
 ### Hystrix: Solutions
 - Timeout
