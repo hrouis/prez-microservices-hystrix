@@ -62,7 +62,8 @@ Un système composé de 30 services environs:
 +++
 ### Design Pattern : Circuit Breaker
 
-@size[0.5em](Désactiver l’envoi de requêtes au service appelé et de renvoyer plus rapidement une réponse alternative de repli (fallback\) aussi appelé graceful degradation, En fonction d’un certain nombre de critères d’erreur \(timeout, nombre d’erreurs, élément dans la réponse\))
+@size[0.5em](Désactiver l’envoi de requêtes au service appelé et de renvoyer plus rapidement une réponse alternative de repli "fallback" aussi appelé graceful degradation)
+@size[0.5em](en fonction d’un certain nombre de critères d’erreur: timeout, nombre d’erreurs, élément dans la réponse)
 +++
 ### Hystrix : Implémentation 
 ```java
