@@ -83,7 +83,7 @@ Un système composé de 30 services environs:
 
 ![ractive](assets/images/hystrix-command-flow-chart.png)
 
-- @size[0.7em](Diagramme de séquence : https://design.codelytics.io/hystrix/how-it-works)
+- @size[0.5em](Diagramme de séquence : https://design.codelytics.io/hystrix/how-it-works)
 +++
 ### Hystrix Circuit Breaker:
 ![circuit_breaker](assets/images/circuit-breaker.png)
