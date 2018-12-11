@@ -43,7 +43,7 @@ La réalité:
 +++
 Exemple Netflix: 
 
-  - 99.99^30 = 99.7% uptime
+  - @size[0.4em](99.99^30 = 99.7% uptime)
   - 0.3% d'un  milliard de requêtes = 3,000,000 requêtes en erreur.
   - 2+ heures temps d'arrêt / mois même si toutes les dépendances possèdent un excellente disponibilité  even if all dependencies have excellent uptime
 ---
