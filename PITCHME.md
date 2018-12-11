@@ -22,18 +22,19 @@ L’architecture en microservices est une approche servant à concevoir une appl
 ![decoupage_ms](assets/images/microservices_architecture.png)   
 
 @size[0.5em](Le découpage se fait par domaine métier, en groupant les services et les types de données qui ont des liens forts, et en séparant quand ils sont suffisamment indépendants.)  
-
 +++
+
 ### Les Microservices : Problèmes?
 Illusions de l’informatique distribuée :
-    - @size[0.7em](Le réseau est fiable.)
-    - @size[0.7em](Le temps de latence est nul.)
-    - @size[0.7em](La bande passante est infinie.)
-    - @size[0.7em](Le réseau est sûr.)
-    - @size[0.7em](La topologie du réseau ne change pas.)
-    - @size[0.7em](Il y a un et un seul administrateur réseau.)
-    - @size[0.7em](Le coût de transport est nul.)
-    - @size[0.7em](Le réseau est homogène.)
+
+ - @size[0.7em](Le réseau est fiable.)
+ - @size[0.7em](Le temps de latence est nul.)
+ - @size[0.7em](La bande passante est infinie.)
+ - @size[0.7em](Le réseau est sûr.)
+ - @size[0.7em](La topologie du réseau ne change pas.)
+ - @size[0.7em](Il y a un et un seul administrateur réseau.)
+ - @size[0.7em](Le coût de transport est nul.)
+ - @size[0.7em](Le réseau est homogène.)
 
 +++
 La réalité: 
