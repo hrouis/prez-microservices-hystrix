@@ -55,7 +55,7 @@ Un système composé de 30 services environs:
 ### Hystrix: Définition
 
 @size[0.7em](Hystrix est une bibliothèque de latence et de tolérance aux pannes conçue pour isoler les points d'accès aux systèmes et services tiers distants,)
-@size[0.7em](arrêter la cascade des erreurs et permettre la résilience dans les systèmes distribués complexes où les pannes sont inévitables.)
+@size[0.7em](prévenir la cascade des pannes et permettre la résilience dans les systèmes distribués complexes où les pannes sont inévitables.)
 
 +++
 ### Hystrix: Solutions
