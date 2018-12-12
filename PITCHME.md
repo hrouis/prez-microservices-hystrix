@@ -100,10 +100,14 @@ Un système composé de 30 services environs:
 +++
 ## Démo
 
-​```sequence
+​
+@snap[north-west span-35]
 @box[bg-green text-white demo-box-pad](Reading: "/to-read")
+@snaped
+
+@snap[north-est span-35]
 @box[bg-green text-white demo-box-pad](BookStore)
-```
+@snaped
 
 ---
 ### What's Next
