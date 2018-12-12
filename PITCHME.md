@@ -96,7 +96,7 @@ Un système composé de 30 services environs:
 - @size[0.5em](https://raw.githubusercontent.com/wiki/Netflix/Hystrix/images/circuit-breaker-1280.png)
 +++
 ### Hystrix Dashboard
-![circuit_breaker](assets/images/hystrix_dashboard.png)
+![circuit_breaker](assets/images/hystrix_dashboard_exp.png)
 +++
 ## Démo
 ---
