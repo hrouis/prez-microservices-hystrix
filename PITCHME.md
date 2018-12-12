@@ -103,11 +103,11 @@ Un système composé de 30 services environs:
 ​
 @snap[south-west span-35]
 @box[bg-blue text-white waved demo-box-pad](Reading: "/to-read")
-@snaped
+@snapend
 
 @snap[south-east span-35]
 @box[bg-blue text-white waved demo-box-pad](BookStore)
-@snaped
+@snapend
 
 ---
 ### What's Next
