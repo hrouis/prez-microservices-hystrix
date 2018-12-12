@@ -101,10 +101,8 @@ Un système composé de 30 services environs:
 ## Démo
 
 ​```sequence
-Browser -> Reading: "/to-read"
-Note right of Reading: Création commande Hystrix
-Reading --> BookStore: "/recommended"
-BookStore --> Reading: La liste des livres à recommender.
+@box[bg-green text-white demo-box-pad](Reading: "/to-read")
+@box[bg-green text-white demo-box-pad](BookStore)
 ```
 
 ---
