@@ -99,15 +99,8 @@ Un système composé de 30 services environs:
 ![circuit_breaker](assets/images/hystrix_dashboard_exp.png)
 +++
 ## Démo
-
-@snap[south-east span-35]
 @box[bg-blue text-white waved demo-box-pad](Reading: "/to-read")
-@snapend
-
-@snap[south-west span-35]
 @box[bg-blue text-white waved demo-box-pad](BookStore)
-@snapend
-
 ---
 ### What's Next
 * @size[0.7em](Hystrix : projet en mode maintenance, mais a été intégré dans  Spring Cloud  : Spring Cloud Netflix Hystrix depuis Mars 2015.)
