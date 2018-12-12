@@ -52,6 +52,12 @@ Un système composé de 30 services environs:
 @size[0.5em](* Tout celà reste théorique en réalité la situation est plus grave)
 
 ---
+### Hystrix: Définition
+
+@size[0.7em](Hystrix est une bibliothèque de latence et de tolérance aux pannes conçue pour isoler les points d'accès aux systèmes et services tiers distants,)
+@size[0.7em](arrêter la cascade des erreurs et permettre la résilience dans les systèmes distribués complexes où les pannes sont inévitables.)
+
++++
 ### Hystrix: Solutions
 - @size[0.7em](Timeout : Libérer les ressources du systèmes et prévenir les blocages d'appels.)
 - @size[0.7em](Thread Pools / Semaphores : Limiter l'utilisatsion des ressources,  Limiter le nombre d'appels concurrents à un composant : Bulkhead pattern)
