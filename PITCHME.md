@@ -98,11 +98,13 @@ Un système composé de 30 services environs:
 ### Hystrix Dashboard
 ![circuit_breaker](assets/images/hystrix_dashboard_exp.png)
 +++
-@snap[south-west span-35]
+## Démo
+
+@snap[south-east span-35]
 @box[bg-blue text-white waved demo-box-pad](Reading: "/to-read")
 @snapend
 
-@snap[south-east span-35]
+@snap[south-west span-35]
 @box[bg-blue text-white waved demo-box-pad](BookStore)
 @snapend
 
