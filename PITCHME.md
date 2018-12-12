@@ -99,10 +99,13 @@ Un système composé de 30 services environs:
 ![circuit_breaker](assets/images/hystrix_dashboard_exp.png)
 +++
 ## Démo
- _______________                  ________________
-|    BookStore | <---------------|  Reading      |
-|______________|                 |_______________|
 
+​```sequence
+Browser -> Reading: "/to-read"
+Note right of Reading: Création commande Hystrix
+Reading --> BookStore: "/recommended"
+BookStore --> Reading: La liste des livres à recommender.
+```
 ---
 ### What's Next
 * @size[0.7em](Hystrix : projet en mode maintenance, mais a été intégré dans  Spring Cloud  : Spring Cloud Netflix Hystrix depuis Mars 2015.)
