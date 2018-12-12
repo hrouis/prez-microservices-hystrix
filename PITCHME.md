@@ -101,12 +101,12 @@ Un système composé de 30 services environs:
 ## Démo
 
 ​
-@snap[north-west span-35]
-@box[bg-green text-white demo-box-pad](Reading: "/to-read")
+@snap[south-west span-35]
+@box[bg-blue text-white waved demo-box-pad](Reading: "/to-read")
 @snaped
 
-@snap[north-est span-35]
-@box[bg-green text-white demo-box-pad](BookStore)
+@snap[south-east span-35]
+@box[bg-blue text-white waved demo-box-pad](BookStore)
 @snaped
 
 ---
