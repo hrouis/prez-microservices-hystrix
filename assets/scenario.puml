@@ -1,0 +1,6 @@
+@startuml
+Browser -> Reading: HTTP GET /to-read
+Reading --> BookStore: HTTP GET /recommended via HystrixCommand.
+BookStore -> Reading: Réponse : Liste des livres.
+
+@enduml
