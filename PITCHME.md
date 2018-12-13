@@ -102,6 +102,7 @@ Un système composé de 30 services environs:
 * @size[0.7em]( Deux services :)
   * @size[0.5em](BookStore : Service de recommendation de livres.)
   * @size[0.5em](Reading : Service Front client du service BookStore qui implémente une commande Hystrix pour récupérer la liste des livres à lire.)
+  
 ![demo](assets/images/scenario.png)
 ---
 ### What's Next
